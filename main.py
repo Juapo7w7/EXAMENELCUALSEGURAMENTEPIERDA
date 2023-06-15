@@ -52,4 +52,12 @@ elif tipooperacion==6:
     print (totalraiz)
 
 
-
+elif tipooperacion==7:
+    from operaciones import sumadecinco
+    a=(int(input("Ingrese un numero  ")))
+    b=(int(input("otro un numero  ")))
+    c=(int(input("otro un numero  ")))
+    d=(int(input("otro un numero  ")))
+    e=(int(input("otro un numero  ")))
+    total5= sumadecinco(a,b,c,d,e)
+    print (total5)
