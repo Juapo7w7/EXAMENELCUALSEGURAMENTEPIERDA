@@ -45,5 +45,11 @@ elif tipooperacion==5:
     totalexpo= exponenciacion(a,b)
     print (totalexpo)
 
+elif tipooperacion==6:
+    from operaciones import raizcuadrada
+    a=(int(input("Ingrese el numero al cual le quiera sacar la raiz  ")))
+    totalraiz= raizcuadrada(a)
+    print (totalraiz)
+
 
 
