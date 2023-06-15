@@ -31,6 +31,13 @@ elif tipooperacion==3:
     totalmultiplicacion= multiplicacion(a,b)
     print (totalmultiplicacion)
 
+elif tipooperacion==4:
+    from operaciones import division
+    a=(int(input("Ingrese el numero el cual desea dividar  ")))
+    b=(int(input("Ingrese el numero por el cual desea dividirlo ")))
+    totaldision= division(a,b)
+    print (totaldision)
+
 
 
 
