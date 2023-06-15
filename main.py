@@ -38,6 +38,12 @@ elif tipooperacion==4:
     totaldision= division(a,b)
     print (totaldision)
 
+elif tipooperacion==5:
+    from operaciones import exponenciacion
+    a=(int(input("Ingrese un numero  ")))
+    b=(int(input("Ingrese el numero ppor el cual lo quiere elevar  ")))
+    totalexpo= exponenciacion(a,b)
+    print (totalexpo)
 
 
 
