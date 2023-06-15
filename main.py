@@ -61,3 +61,11 @@ elif tipooperacion==7:
     e=(int(input("otro un numero  ")))
     total5= sumadecinco(a,b,c,d,e)
     print (total5)
+
+elif tipooperacion==8:
+    from operaciones import residuo
+    a=(float (input("Ingrese el numero el cual desea sacarle el residuo  ")))
+    b=(float (input("Ingrese el numero de residuo  ")))
+    totalresi= residuo(a,b)
+    print (totalresi)
+    
