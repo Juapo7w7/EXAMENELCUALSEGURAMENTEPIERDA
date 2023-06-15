@@ -24,6 +24,12 @@ elif tipooperacion==2:
     totalresta= resta(a,b)
     print (totalresta)
 
+elif tipooperacion==3:
+    from operaciones import multiplicacion
+    a=(int(input("Ingrese un primer numero ")))
+    b=(int(input("Ingrese el numero por lo cual quiere multiplicarlo  ")))
+    totalmultiplicacion= multiplicacion(a,b)
+    print (totalmultiplicacion)
 
 
 
